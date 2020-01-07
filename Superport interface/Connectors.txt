@@ -1,32 +1,47 @@
 P1 HOST INTERFACE CONNECTOR
 P1 is the DB25F connector on the 7I76 that connects to the FPGA card. Actual pin
 functions depend on FPGA configuration but signal directions must be observed.
-DB25	GPIO 	FUNCT 	DIR 	DB25	GPIO 	FUNC 	DIR
-1 	IO0 	DIR0 	OUT 	14 	IO1 	STEP0 	OUT
-2 	IO2 	DIR1 	OUT 	15 	IO3 	STEP1 	OUT
-3 	IO4 	DIR2 	OUT 	16 	IO5 	STEP2 	OUT
-4 	IO6 	DIR3 	OUT 	17 	IO7 	STEP3 	OUT
-5 	IO8 	DIR4 	OUT 	18 	GND
-6 	IO9 	STEP4 	OUT 	19 	GND
-7 	IO10 	SS0TX 	OUT 	20 	GND
-8 	IO11 	SS0RX 	IN 		21 	GND
-9 	IO12 	SS1TX 	OUT 	22 	GND or 5V
-10 	IO13 	SS1RX 	IN 		23 	GND or 5V
-11 	IO14 	ENCI 	IN 		24 	GND or 5V
-12 	IO15 	ENCB 	IN 		25	GND or 5V
-13 	IO16 	ENCA 	IN
+DB25	GPIO 	FUNCT 	DIR
+1 		IO0 	DIR0 	OUT 		
+2 		IO2 	DIR1 	OUT 		
+3 		IO4 	DIR2 	OUT 		
+4 		IO6 	DIR3 	OUT 		
+5 		IO8 	DIR4 	OUT 		
+6 		IO9 	STEP4 	OUT 		
+7 		IO10 	SS0TX 	OUT 		
+8 		IO11 	SS0RX 	IN 			
+9 		IO12 	SS1TX 	OUT 		
+10 		IO13 	SS1RX 	IN 			
+11 		IO14 	ENCI 	IN 			
+12 		IO15 	ENCB 	IN 			
+13 		IO16 	ENCA 	IN
+14 		IO1 	STEP0 	OUT
+15 		IO3 	STEP1 	OUT
+16 		IO5 	STEP2 	OUT
+17 		IO7 	STEP3 	OUT
+18 		GND
+19 		GND
+20 		GND
+21 		GND
+22 		GND or 5V
+23 		GND or 5V
+24 		GND or 5V
+25		GND or 5V
 
 
-P2 Glass Scale encoder
-P2 is a DB9F
-DB9 	RS422	TTL
-1		!A 		-
-2		GND		GND
-3		!B		-
-4		-		-
-5		!Z		-	
-6		A		A 
-7		+5V		+5V
-8		B		B
-9		Z		Z
+P2,3,4,5,6,7 (Glass Scale) encoders 
+P2..7 is IDC-10 (boxed) on PCB with ribbon cable to DB9F
+DB-9	IDC-10	RS422	TTL
+Pin 1 	Pin 1	!A 		-
+Pin 2	Pin 2	GND		GND
+Pin 3 	Pin 3	!B		-
+Pin 4	Pin 4	-		-
+Pin 5 	Pin 5	!Z		-	
+Pin 6	Pin 6	A		A 
+Pin 7 	Pin 7	+5V		+5V
+Pin 8	Pin 8	B		B
+Pin 9 	Pin 9	Z		Z
+		Pin 10	-		-
+
+
 

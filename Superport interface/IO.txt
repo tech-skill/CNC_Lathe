@@ -1,0 +1,48 @@
+
+Inputs
+	START switch
+	PAUZE switch
+	STOP switch
+	ESTOP switch
+	Touch Probe
+
+	Feed Direction 	(Lathe)
+	Z Feed ON 		(Lathe)
+	X Feed ON 		(Lathe)
+	Half Nut ON 	(Lathe)
+	Set STOP switch	(Lathe)
+
+	X
+	Left Endstop
+	Right Endstop
+	Home switch
+
+	Y
+	Left Endstop
+	Right Endstop
+	Home switch
+
+	Z
+	Upper Endstop
+	Lower Endstop
+	Home switch
+
+	A
+
+	B
+
+	C
+
+
+Outputs
+	Drivers Enable
+	Air ON
+	Mist Coolant ON
+	Flood Coolant ON
+	Lights ON
+	Oil
+	ESTOP
+	RUNNING (GREEN)
+	WARNING (ORANGE)
+	ERROR (RED)
+	
