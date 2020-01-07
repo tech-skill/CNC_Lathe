@@ -13,18 +13,18 @@ Inputs
 	Set STOP switch	(Lathe)
 
 	X
-	Left Endstop
-	Right Endstop
+	Left End stop
+	Right End stop
 	Home switch
 
-	Y
-	Left Endstop
-	Right Endstop
+	Y				(Mill)
+	Left End stop
+	Right End stop
 	Home switch
 
 	Z
-	Upper Endstop
-	Lower Endstop
+	Upper End stop
+	Lower End stop
 	Home switch
 
 	A
