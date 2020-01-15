@@ -1,15 +1,21 @@
 
+Analog/rotation enc
+	Feed override
+	Spindle speed override
+
 Inputs
 	START switch
 	PAUZE switch
 	STOP switch
 	ESTOP switch
+	
 	Touch Probe
 
-	Feed Direction 	(Lathe)
-	Z Feed ON 		(Lathe)
-	X Feed ON 		(Lathe)
-	Half Nut ON 	(Lathe)
+	Feed Direction 
+	X Feed ON 		
+	Y Feed ON 		
+	Z Feed ON 		
+	Half Nut ON 	
 	Set STOP switch	(Lathe)
 
 	X
@@ -17,7 +23,7 @@ Inputs
 	Right End stop
 	Home switch
 
-	Y				(Mill)
+	Y				
 	Left End stop
 	Right End stop
 	Home switch
@@ -42,7 +48,7 @@ Outputs
 	Lights ON
 	Oil
 	ESTOP
-	RUNNING (GREEN)
+	RUNNING	(GREEN)
 	WARNING (ORANGE)
-	ERROR (RED)
+	ERROR 	(RED)
 	
