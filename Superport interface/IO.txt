@@ -1,13 +1,24 @@
 
 Analog/rotation enc
-	Feed override
-	Spindle speed override
+	Feed override.          Mesa 7i73 enc
+	Spindle speed override	Mesa 7i73 enc
 
 Inputs
-	START switch
-	PAUZE switch
-	STOP switch
-	ESTOP switch
+	START switch		Mesa 7i73 matrix
+	PAUZE switch		Mesa 7i73 matrix
+	STOP switch		Mesa 7i73 matrix
+	ESTOP switch		Mesa 7i73 matrix
+	
+	SPINDLE CW		Mesa 7i73 matrix
+	SPINDLE	STOP		Mesa 7i73 matrix
+	SPINDLE CCW		Mesa 7i73 matrix
+	
+	FEED END		Mesa 7i73 matrix
+	FEED FWD		Mesa 7i73 matrix
+	FEED REV		Mesa 7i73 matrix
+	
+	FEED GO			Mesa 7i73 inp
+	CROSS-FEED		Mesa 7i73 inp
 	
 	Touch Probe
 
@@ -41,6 +52,9 @@ Inputs
 
 
 Outputs
+	20x4 LCD 		Mesa 7i73 lcd
+
+	Machine ON
 	Drivers Enable
 	Air ON
 	Mist Coolant ON
